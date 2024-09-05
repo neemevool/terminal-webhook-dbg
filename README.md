@@ -5,21 +5,21 @@
 3. jwsjson korral tuleb lisada JWK oct HS256, saab genereerida nt. https://mkjwk.org/
    
 `
-{
-  "hooks": {
-    "DirectoDelivery": [
-      {
-        "Name": "some",
-        "Url": "https://www.vtmf.ee/tracking",
-        "Format": "jwsjson",
-        "Settings": {
-          "kid": "pA9jkPnQ_KxBTsx2dDTsY137rALCu7FhtjwPVhx9d1A",
-          "k": "BhJRj4zm7BGTrQwtldn68ZPTxIHwLWfNdUhbxaRp6wE"
-        }
-      }
-    ]
-  },
-}
+   {
+     "hooks": {
+       "DirectoDelivery": [
+         {
+           "Name": "some",
+           "Url": "https://www.vtmf.ee/tracking",
+           "Format": "jwsjson",
+           "Settings": {
+             "kid": "pA9jkPnQ_KxBTsx2dDTsY137rALCu7FhtjwPVhx9d1A",
+             "k": "BhJRj4zm7BGTrQwtldn68ZPTxIHwLWfNdUhbxaRp6wE"
+           }
+         }
+       ]
+     },
+   }
 `
 
 Edasi saab käsurealt käivitada parameetritega:
